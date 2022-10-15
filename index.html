@@ -5,10 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baap er Bank</title>
+     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to my Bap er Bank</h1>
+        <h1 class="text-center text-5xl mt-16">Welcome to my <span class="font-bold text-rose-600">Bap er Bank</span></h1>
     </header>
+    <main>
+        <section class="bg-sky-500 mx-auto w-3/4 mt-4">
+            <h3 class="text-2xl mb-4 m-4">Please Login</h3>
+            <form action="">
+                <input class="border-8 border-stone-800 rounded-lg block p-2 w-3/4 m-4 "type="text" placeholder="your email">
+                <input   class="border-8 border-stone-800 rounded-lg p-2 w-3/4 m-4 " type="password" placeholder="password">
+                <br>
+                <button class="bg-red-500  px-4 rounded py-2 font-semibold text-white m-4">Submit</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>

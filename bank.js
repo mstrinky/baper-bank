@@ -6,6 +6,6 @@ document.getElementById('submit').addEventListener('click',function(){
    const userPassword=passwordFiled.value;
 //    console.log(userPassword);
    if ( userEmail == 'rinky@gmail.com' && userPassword == 'secret'){
- window.location.href='comment.html';
+        window.location.href='banking.html';
    }
 })
